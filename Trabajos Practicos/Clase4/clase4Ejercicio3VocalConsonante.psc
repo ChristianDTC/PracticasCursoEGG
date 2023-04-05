@@ -3,11 +3,13 @@
 
 Algoritmo clase4Ejercicio3VocalConsonante
 	
-	Definir letraIngresada Como Caracter
+	Definir letraIngresada, letra Como Caracter
 	
-	Escribir "Ingrese una letra minúscula del alfabeto"
-	Leer letraIngresada
+	Escribir "Ingrese una letra del alfabeto"
+	Leer letra
 	Escribir ""
+	
+	letraIngresada = Minusculas(letra)
 	
 	Si letraIngresada == "a" O letraIngresada == "e" O letraIngresada == "i" O letraIngresada == "o" O letraIngresada == "u" Entonces
 		Escribir "La letra ", letraIngresada " es vocal"

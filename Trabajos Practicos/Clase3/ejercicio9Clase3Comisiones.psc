@@ -3,7 +3,7 @@
 // las tres ventas que realiza en el mes y el total que recibirá en el mes tomando 
 // en cuenta su sueldo base y comisiones.
 
-Algoritmo ejercicio9Clase4Comisiones
+Algoritmo ejercicio9Clase3Comisiones
 	
 	Definir sueldoBase, comision, comisionVentas, ventasMes, sueldoTotal Como Real
 	

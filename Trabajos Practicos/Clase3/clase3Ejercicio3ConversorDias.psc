@@ -3,7 +3,7 @@
 // en minutos y en segundos. Por ejemplo 
 // 1 día = 24 horas = 1440 minutos = 86400 segundos
 
-Algoritmo clase4Ejercicio3ConversorDias
+Algoritmo clase3Ejercicio3ConversorDias
 	
 	Definir dias, horas, minutos, segun2, cantidadIngresada Como Real
 	

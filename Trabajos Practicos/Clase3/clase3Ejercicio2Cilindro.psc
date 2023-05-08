@@ -2,7 +2,7 @@
 // Para ello se deberá solicitar al usuario que ingrese el radio
 // y la altura. Mostrar el resultado por pantalla. 
 
-Algoritmo clase4Ejercicio2Cilindro
+Algoritmo clase3Ejercicio2Cilindro
 	
 	definir radio, altura, volumen Como Real
 	

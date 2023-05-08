@@ -1,6 +1,6 @@
 // Mostrar el área y perímetro de un hexágono
 
-Algoritmo ejercicio6Clase4GradosHexagono
+Algoritmo ejercicio6Clase3GradosHexagono
 	
 	Definir area, perimetro, apotema, lado Como Real
 	

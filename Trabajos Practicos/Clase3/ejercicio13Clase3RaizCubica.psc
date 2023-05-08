@@ -1,7 +1,7 @@
 // Realizar un algoritmo que lea un número y que muestre 
 // su raíz cuadrada y su raíz cúbica. 
 
-Algoritmo ejercicio13Clase4RaizCubica
+Algoritmo ejercicio13Clase3RaizCubica
 	
 	Definir numeroIngresado, raizCuadrada, raizCubica Como Real
 	

@@ -5,7 +5,7 @@
 // c. 15% de la calificación de un trabajo final.
 
 
-Algoritmo ejercicio12Clase4CalificacionFinal
+Algoritmo ejercicio12Clase3CalificacionFinal
 	
 	Definir parciales, examenFinal, trabajoFinal, calificacionFinal Como Real
 	

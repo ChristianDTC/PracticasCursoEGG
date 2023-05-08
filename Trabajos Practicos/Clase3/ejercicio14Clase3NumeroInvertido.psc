@@ -1,7 +1,7 @@
 // Dado un número de dos cifras, diseñe un algoritmo que permita obtener 
 // el númer oinvertido. Ejemplo, si se introduce 23 que muestre 32.
 
-Algoritmo ejercicio14Clase4NumeroInvertido
+Algoritmo ejercicio14Clase3NumeroInvertido
 	
 	Definir numeroIngresado, unidad, decena, numeroInvertido Como Real
 	

@@ -1,7 +1,7 @@
 // Escribir un programa que convierta un valor dado en grados Fahrenheit 
 // a grados Celsius
 
-Algoritmo ejercicio8Clase4GradosCelsius
+Algoritmo ejercicio8Clase3GradosCelsius
 	
 	Definir gradosFahrenheit, gradosCelsius Como Real
 	

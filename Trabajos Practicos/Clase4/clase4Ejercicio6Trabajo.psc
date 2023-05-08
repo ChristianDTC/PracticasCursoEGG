@@ -23,7 +23,7 @@
 // solicitudesEjecutivos = 3
 
 
-Algoritmo clase4Ejercicio5Trabajo
+Algoritmo clase4Ejercicio6Trabajo
 	
 	Definir correosSinLeer, solicitudDeEjecutivos, solicitudEmergenciaOtroDepartamento Como Entero
 	

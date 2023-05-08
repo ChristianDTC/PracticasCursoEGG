@@ -2,7 +2,7 @@
 //si se descuenta el 20% de su salario bruto.
 
 
-Algoritmo ejercicio3Clase4Sueldo
+Algoritmo ejercicio3Clase3Sueldo
 	
 	Definir sueldoBase, descuento, salario Como Real
 	

@@ -2,7 +2,7 @@
 // El tiempo de viaje hasta llegar a otra ciudad B es de T segundos. 
 // Escribir un algoritmo que determine la hora de llegada a la ciudad B.
 
-Algoritmo ejercicio15Clase4HoraDeLlegada
+Algoritmo ejercicio15Clase3HoraDeLlegada
 	
 	Definir horas, minutos, seg, timpoLlegada Como real
 	Definir horasLlegada, minutosLlegada, segundosLlegda Como real

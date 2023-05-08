@@ -1,7 +1,7 @@
 // Solicitar al usuario que ingrese la base y altura de un rectángulo, 
 // y calcular y mostrar por pantalla el área y perímetro del mismo
 
-Algoritmo clase4Ejercicio1Rectangulo
+Algoritmo clase3Ejercicio1Rectangulo
 	
 	definir base, altura, area, perimetro Como Real
 	

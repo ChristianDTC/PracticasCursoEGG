@@ -1,7 +1,7 @@
 // Crea una aplicación que nos pida un día de la semana y que nos diga si 
 // es un dia laboral o no.
 
-Algoritmo clase4Ejercicio4Dia
+Algoritmo clase4Ejercicio5Dia
 	
 	Definir diaSemana Como Entero
 	
@@ -19,25 +19,33 @@ Algoritmo clase4Ejercicio4Dia
 	Escribir "OPCION SI"
 	Si diaSemana == 1 Entonces
 		Escribir "El Lunes es un día laboral"
+	SiNo
+		Si diaSemana == 2 Entonces
+			Escribir "El Martes es un día laboral"
+		SiNo
+			Si diaSemana == 3 Entonces
+				Escribir "El Miércoles es un día laboral"
+			SiNo
+				Si diaSemana == 4 Entonces
+					Escribir "El Jueves es un día laboral"
+				SiNo
+					Si diaSemana == 5 Entonces
+						Escribir "El Viernes es un día laboral"
+					SiNo
+						Si diaSemana == 6 Entonces
+							Escribir "El Sábado es Medio día laboral"
+						SiNo
+							Si diaSemana == 7 Entonces
+								Escribir "El Domingo NO es un día laboral"
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
 	FinSi
-	Si diaSemana == 2 Entonces
-		Escribir "El Martes es un día laboral"
-	FinSi
-	Si diaSemana == 3 Entonces
-		Escribir "El Miércoles es un día laboral"
-	FinSi
-	Si diaSemana == 4 Entonces
-		Escribir "El Jueves es un día laboral"
-	FinSi
-	Si diaSemana == 5 Entonces
-		Escribir "El Viernes es un día laboral"
-	FinSi
-	Si diaSemana == 6 Entonces
-		Escribir "El Sábado es Medio día laboral"
-	FinSi
-	Si diaSemana == 7 Entonces
-		Escribir "El Domingo NO es un día laboral"
-	FinSi
+	
+	Escribir ""
 	
 	Escribir "OPCION SEGUN"
 	Segun diaSemana Hacer

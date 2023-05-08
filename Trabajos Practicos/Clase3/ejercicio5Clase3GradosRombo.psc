@@ -1,6 +1,6 @@
 // Mostrar el área y perímetro de un Rombo
 
-Algoritmo ejercicio5Clase4GradosRombo
+Algoritmo ejercicio5Clase3GradosRombo
 	
 	Definir area, perimetro, digonalMayor, diagonalMenor, lado Como Real
 	

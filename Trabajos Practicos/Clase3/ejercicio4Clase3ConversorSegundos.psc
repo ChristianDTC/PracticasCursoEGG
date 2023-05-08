@@ -2,7 +2,7 @@
 // que luego pueda mostrar la cantidad de horas, minutos y segundos que 
 //existen en el valor ingresado.
 
-Algoritmo ejercicio4Clase4ConversorSegundos
+Algoritmo ejercicio4Clase3ConversorSegundos
 	
 	Definir segundosIngresados, horas, minutos, segundos1, segundosSobrantes Como Entero
 	

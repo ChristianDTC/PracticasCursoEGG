@@ -3,7 +3,7 @@
 // El programa debe calcular cuál fue el porcentaje de aumento que tuvo ese producto
 // en el año y mostrarlo por pantalla. 
 
-Algoritmo clase4Ejercicio4Inflacion
+Algoritmo clase3Ejercicio4Inflacion
 	
 	Definir precioInicio, precioFinal, aumento Como Real
 	

@@ -11,15 +11,29 @@
 // !5 = 1*2*3*4*5 = 120
 
 
-Algoritmo clase10Ejercicio4FuncionFactorialFALTA
+Algoritmo clase10Ejercicio4FuncionFactorial
 	
-	Definir numeroIngresado, i Como Entero
+	Definir numeroIngresado, i, x, acumulador Como Entero
 	
 	Escribir "Ingrese un número entero positivo para calcular la función factorial"
 	Leer numeroIngresado
 	
+	acumulador = 1
 	Para i = 1 Hasta numeroIngresado Hacer
-		Escribir sin saltar numeroIngresado " = " i
+		
+		Si i == 1 Entonces
+			Escribir Sin Saltar numeroIngresado " = "
+		FinSi
+		Si i == numeroIngresado Entonces
+			Escribir Sin Saltar i
+		SiNo
+			Escribir sin saltar i "*"
+		FinSi
+		
+		acumulador = acumulador * i
+	
 	FinPara
+	
+	Escribir " = " acumulador
 	
 FinAlgoritmo

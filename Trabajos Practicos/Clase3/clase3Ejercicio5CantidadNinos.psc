@@ -3,7 +3,7 @@
 // El programa debe solicitar al usuario que ingrese la cantidad total de niños, 
 // y la cantidad total de niñas que hay en el curso. 
 
-Algoritmo clase4Ejercicio5CantidadNinos
+Algoritmo clase3Ejercicio5CantidadNinos
 	
 	Definir ninios, ninias, total, porcentajeNinios, porcentajeNinias Como Real
 	

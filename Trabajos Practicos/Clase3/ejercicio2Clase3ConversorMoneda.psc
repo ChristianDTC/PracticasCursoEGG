@@ -1,7 +1,7 @@
 // Calcular el cambio de monedas en dólares y euros al ingresar cierta 
 // cantidad de dinero en pesos.
 
-Algoritmo ejercicio2Clase4ConversorMoneda
+Algoritmo ejercicio2Clase3ConversorMoneda
 	
 	Definir montoIngresado, dolares, euros Como Real
 	

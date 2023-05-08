@@ -1,6 +1,6 @@
 // Mostrar el área y perímetro de un paralelogramo
 
-Algoritmo ejercicio7Clase4GradosParalelogramo
+Algoritmo ejercicio7Clase3GradosParalelogramo
 	
 	Definir area, perimetro, base, altura Como Real
 	

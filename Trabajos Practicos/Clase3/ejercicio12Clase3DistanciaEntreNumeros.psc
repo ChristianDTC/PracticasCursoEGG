@@ -1,7 +1,7 @@
 // Pide al usuario dos números y muestra la "distancia" entre ellos 
 // (el valor absoluto de su diferencia, de modo que el resultado sea siempre positivo).
 
-Algoritmo ejercicio12Clase4DistanciaEntreNumeros
+Algoritmo ejercicio12Clase3DistanciaEntreNumeros
 	
 	Definir numero1, numero2, distancia Como Real
 

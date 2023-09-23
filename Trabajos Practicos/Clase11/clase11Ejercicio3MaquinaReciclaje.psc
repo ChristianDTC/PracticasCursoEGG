@@ -1,4 +1,4 @@
-//Necesitamos crear un sistema para una máquina de reciclaje de botellas automática. Dicha
+// Necesitamos crear un sistema para una máquina de reciclaje de botellas automática. Dicha
 //	máquina nos pagará dinero por la cantidad de plástico reciclado. Tenemos que ingresar
 //	nuestro usuario y contraseña para que se nos cargue el saldo por sistema a nuestra
 //	cuenta.
@@ -33,6 +33,123 @@
 
 Algoritmo clase11Ejercicio3MaquinaReciclaje
 	
+	Definir usuario, contrasenia Como Caracter
+	Definir intentos, opciones, cantidadBotellas, x, pesoBotella, valorOfrecido Como Entero
+	Definir saldo, presupuesto Como Real
+	Definir loguin Como Logico
 	
+	// INICIALIZACION VARIABLES
+	loguin = Falso
+	intentos = 3
+	opciones = 0
+	saldo = 0
+	presupuesto = 0
+	
+	// LOGUIN
+	Repetir
+		Escribir "Ingrese el usuario"
+		Leer usuario
+		Limpiar Pantalla
+		
+		Si usuario == "Albus_D" Entonces // CONTROL DE USUARIO
+			
+			Repetir
+				
+				Escribir "Ingrese la contraseña"
+				Leer contrasenia
+				Limpiar Pantalla
+				
+				Si contrasenia <> "caramelosDeLimon" Entonces // CONTROL CONTRASEÑA
+					Escribir "CONTRASEÑA INVALIDA"
+					Escribir ""
+				SiNo
+					loguin = Verdadero
+				FinSi
+			Mientras Que contrasenia <> "caramelosDeLimon" Y intentos <> 0
+			
+		SiNo
+			Escribir "USUARIO INVALIDO" // CANTIDAD INTENTOS RESTANTES
+			Escribir ""
+			intentos = intentos - 1
+		FinSi
+	Mientras Que usuario <> "Albus_D" Y intentos <> 0
+	
+	Limpiar Pantalla
+	
+	Si loguin Entonces
+		
+		Repetir
+			Escribir "MENU DE OPCIONES"
+			Escribir "1 = Ingresar Botellas"
+			Escribir "2 = Consultar Saldo"
+			Escribir "3 = SALIR"
+			Leer opciones
+			
+			Segun opciones Hacer
+				1:
+					Limpiar Pantalla
+					Escribir "Indique cuántas botellas se va a ingresar al sistema"
+					Leer cantidadBotellas
+					
+					Para x = 1 Hasta cantidadBotellas Hacer // VALOR POR LAS BOTELLAS RECICLADAS
+						pesoBotella = Aleatorio(100, 3000)
+						Si pesoBotella <= 500 Entonces
+							presupuesto = presupuesto + 50
+						SiNo
+							Si pesoBotella > 500 y pesoBotella <= 1500 Entonces
+								presupuesto = presupuesto + 125
+							SiNo
+								Si pesoBotella > 1500 Entonces
+									presupuesto = presupuesto + 200
+								FinSi
+							FinSi
+						FinSi
+					Fin Para
+					
+					Limpiar Pantalla
+					
+					Repetir
+						Escribir "Para las ", cantidadBotellas, " botellas ingresadas se le ofrece $", presupuesto
+						Escribir "ACEPTO = 1"
+						Escribir "NO ACEPTO = 2"
+						Leer valorOfrecido
+						Limpiar Pantalla
+						
+						SI valorOfrecido == 1 Entonces
+							saldo = saldo + presupuesto
+							Escribir "Su saldo actual es de $", saldo
+							Escribir ""
+						SiNo
+							SI valorOfrecido == 2 Entonces
+								Escribir "Devolviendo Material"
+								Escribir "Su saldo actual es de $", saldo
+							SiNo
+								Escribir "¡¡¡ ERROR !!!"
+								Escribir "Ingrese una opción válida"
+								Escribir ""
+							FinSi
+						FinSi
+					Mientras Que valorOfrecido <> 1 y valorOfrecido <> 2
+					
+				2:
+					Limpiar Pantalla
+					Escribir "Su saldo es de $", saldo
+					Escribir ""
+					Escribir "Precione una tecla para continuar"
+					Esperar Tecla
+					Limpiar Pantalla
+				3:
+					Limpiar Pantalla
+					Escribir "FIN DEL PROGRAMA"
+				De Otro Modo:
+					Escribir "!!! ERROR ¡¡¡"
+					Escribir "Ingrese una opción válida"
+					Escribir ""
+			Fin Segun
+			
+			
+		Mientras Que opciones <> 3
+		
+	FinSi
 	
 FinAlgoritmo
